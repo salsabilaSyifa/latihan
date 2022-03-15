@@ -15,10 +15,10 @@
         <hr>
 
         <?php
-            $nama  = trim($_POST[nama]);
-            $tugas  = trim($_POST[nilaitugas]);
-            $uts  = trim($_POST[nilaiuts]);
-            $uas  = trim($_POST[nilaiuas]);
+            $nama  = trim($_POST["nama"]);
+            $tugas  = trim($_POST["nilaitugas"]);
+            $uts  = trim($_POST["nilaiuts"]);
+            $uas  = trim($_POST["nilaiuas"]);
 
             $nilai  = ($tugas*0.2)+ ($uts*0.3)+ ($uas*0.4);
 
